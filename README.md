@@ -2,8 +2,6 @@
 
 *By Sachin Dixit*
 
-![Sachin Dixit](assets/images/slide-1-img1.jpg)
-
 ## Today's Web Architecture
 
 ![Web Application Architecture: users interact with the Frontend (HTML, CSS, JavaScript) which exchanges Request/Response with the Backend (app logic in PHP, JavaScript, Python, Java) via a Web Server backed by a File System and Database](assets/images/slide-2-img1.png)
