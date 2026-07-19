@@ -30,6 +30,10 @@
 
 ## WWW
 
+<table>
+<tr>
+<td valign="top">
+
 - Popular method of access internet
 - Works on hyper text ( what is hypertext ? )
 - Hypertext document on internet are known as web pages !
@@ -40,9 +44,20 @@
 - Notion of U R L
 - MIME Types
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-4-img1.png" width="450" alt="Layered diagram of the web: HTML, CSS, Web APIs and JavaScript sit above HTTP, which sits above DNS, UDP, TCP, TLS and IP">
 
+</td>
+</tr>
+</table>
+
 ## Http
+
+<table>
+<tr>
+<td valign="top">
 
 - Stateless vs Sessionless
 - Request -Response -Headers
@@ -50,11 +65,18 @@
 - CSP-CORS-Vulnerabilities
 - APIs : XMLHttpRequest, Fetch
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-5-img2.png" width="520" alt="Same-origin vs cross-origin requests: same-origin requests are always allowed while cross-origin requests are controlled by CORS">
 
 <img src="assets/images/slide-5-img3.png" width="420" alt="Anatomy of an HTTP response showing the protocol version, status code, status message and headers">
 
 <img src="assets/images/slide-5-img1.png" width="480" alt="Anatomy of an HTTP request showing the method (GET), path, protocol version and headers">
+
+</td>
+</tr>
+</table>
 
 ## Http Evolutions
 
@@ -75,16 +97,27 @@ Image via : <https://milestone-of-se.nesuke.com/en/l7protocol/http/http3-over-qu
 
 ## Browsers
 
+<table>
+<tr>
+<td valign="top">
+
 - Components : Own UI, Engines, Networking, JS Engines, Storages, Plugins
 - Engines : Trident, Webkit, Gecko
 - Multiple Specs support
 - History <https://blog.mozilla.org/en/internet-culture/deep-dives/why-are-hyperlinks-blue>
+
+</td>
+<td valign="top">
 
 <img src="assets/images/slide-8-img1.png" width="520" alt="Browser components: User Interface, Browser engine, Rendering engine, Networking, JavaScript Interpreter, UI Backend and Data Persistence">
 
 <img src="assets/images/slide-8-img2.png" width="620" alt="Rendering flow: Parsing HTML to construct the DOM tree, Render tree construction, Layout of the render tree, Painting the render tree">
 
 Images via <https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/>
+
+</td>
+</tr>
+</table>
 
 ## The Rendering
 
@@ -100,6 +133,10 @@ Images via <https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/>
 
 ## HTML
 
+<table>
+<tr>
+<td valign="top">
+
 - HTML ⇒ Structure, CSS ⇒ Presentation, JS ⇒ Behaviour
 - Links, Documents, Tags, Resources
 - UI elements, validations,
@@ -109,13 +146,24 @@ Images via <https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/>
 - Service workers, PWA
 - FORM as element of interaction
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-10-img3.png" width="180" alt="Stacked layers of HTML, CSS and JavaScript">
 
 <img src="assets/images/slide-10-img2.png" width="450" alt="HTML element with an attribute: a paragraph with class 'editor-note'">
 
 <img src="assets/images/slide-10-img1.png" width="450" alt="Anatomy of an HTML element: opening tag, content, closing tag">
 
+</td>
+</tr>
+</table>
+
 ## CSS
+
+<table>
+<tr>
+<td valign="top">
 
 - Style-Sheet
 - Cascading, Inheritance
@@ -125,6 +173,9 @@ Images via <https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/>
 - Box : FlexBox, Grids, Floats, Layouts, Animations
 - RWD, media query
 - CSS versions, Browser compatibility
+
+</td>
+<td valign="top">
 
 <img src="assets/images/slide-11-img1.png" width="300" alt="Anatomy of a CSS declaration: selector, property and property value">
 
@@ -136,7 +187,15 @@ Images via <https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/>
 
 <img src="assets/images/slide-11-img5.png" width="330" alt="CSS grid layout showing columns, gutters and rows of content">
 
+</td>
+</tr>
+</table>
+
 ## JS
+
+<table>
+<tr>
+<td valign="top">
 
 - Dynamic programming language for browser (& nodejs), Single threaded, Interpreted, functional, Object based
 - Basic programming constructs
@@ -145,16 +204,30 @@ Images via <https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/>
 - Browser APIs: DOM, XMLHttpRequest, Geolocation, Canvas, Storage, ServiceWorkers, WebGL, WebRTC, Codes
 - Versions : ES16, ES20
 
+</td>
+<td valign="top">
+
 <img src="assets/images/slide-12-img1.png" width="470" alt="Event capturing and bubbling when a <video> element is clicked, showing how ancestors are checked for onclick handlers">
 
 <img src="assets/images/slide-12-img2.png" width="340" alt="AJAX data flow: client exchanges HTTP Request/Response with AJAX, which stores and requests data across DB and offline states for data, treatments and display">
 
+</td>
+</tr>
+</table>
+
 ## Document and server pages
+
+<table>
+<tr>
+<td valign="top">
 
 - Applet, Flash
 - Active pages : JSP / ASP
 - JSF, Portlet
 - JSP : Taglibs, EL
+
+</td>
+<td valign="top">
 
 <img src="assets/images/slide-13-img1.png" width="230" alt="Applet lifecycle: init(), start(), paint(), stop() and destroy() methods">
 
@@ -165,6 +238,10 @@ Images via <https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/>
 <img src="assets/images/slide-13-img3.png" width="330" alt="Portlet container action and render sequence between client, portal and portlets">
 
 <img src="assets/images/slide-13-img4.png" width="450" alt="JSF request lifecycle: Restore View, Apply Requests, Process Events, Process Validations, Update Model Values, Invoke Application and Render Response">
+
+</td>
+</tr>
+</table>
 
 ## AJAX and Jquery
 
